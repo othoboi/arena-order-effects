@@ -1,0 +1,11 @@
+[project]
+name = "arena-order-effects"
+version = "0.1.0"
+description = "Side (order) effects in pairwise LLM votes: Bradley-Terry with a position term"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

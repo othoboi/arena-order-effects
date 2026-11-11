@@ -1,0 +1,61 @@
+{
+  "balance": {
+    "one_sided_models": {
+      "dbrx-next": 377,
+      "eureka-chatbot": 945
+    },
+    "chi2": 73.46271057412908,
+    "df": 53,
+    "p_value": 0.032862742964129346,
+    "left_share_range_models_1000plus": [
+      0.483946141895391,
+      0.5301837270341208
+    ]
+  },
+  "counts": {
+    "all_rows": 106134,
+    "after_dropping_one_sided_models": 104812,
+    "decisive": 64643,
+    "tie_share": 0.3832481013624394,
+    "voters": 36160
+  },
+  "main": {
+    "n_votes": 64643,
+    "n_models": 53,
+    "left_win_share": 0.49439227758612686,
+    "gamma": -0.017884745335881923,
+    "se": 0.008298433457919877,
+    "ci_low": -0.034149674913404884,
+    "ci_high": -0.001619815758358966,
+    "p_left_when_even": 0.49552893284322275,
+    "lrt": 4.6449527460790705,
+    "p_value": 0.031144994598450642,
+    "binomial_p_value": 0.004404770214897334,
+    "detectable_effect_points": 0.5808642085435634,
+    "ci_resampling_voters": [
+      -0.03453385388467177,
+      -0.0019274826240263537
+    ]
+  },
+  "ranking": {
+    "spearman": 0.9999193678438962,
+    "models_changing_rank": 2,
+    "largest_rank_change": 1,
+    "largest_strength_change": 0.0013325690894079312
+  },
+  "length": {
+    "gamma_holding_length_fixed": -0.01921324324866338,
+    "gamma_ci": [
+      -0.0357220022555817,
+      -0.0027044842417450615
+    ],
+    "p_value": 0.022541159677179515,
+    "length_coef": 0.49760640534295186,
+    "length_ci": [
+      0.4740917270808004,
+      0.5211210836051033
+    ],
+    "p_win_if_twice_as_long": 0.5853838120013302,
+    "length_difference_equal_to_side_effect_pct": 3.936643065929357
+  }
+}
